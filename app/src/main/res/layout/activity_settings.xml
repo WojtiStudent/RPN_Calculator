@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableRow
+            android:id="@+id/settingsNavbar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@color/purple_500"
+                android:layout_margin="2dp"
+                android:padding="4dp"
+
+                android:text="SETTINGS" />
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:text="Back"
+                android:layout_margin="2dp"
+                android:onClick="backAction"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/precisionZone"
+            style="@style/settingRow">
+
+            <TextView
+                style="@style/settingText"
+                android:text="Precision number: " />
+
+            <NumberPicker
+                android:id="@+id/precisionPicker"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="8dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/stackColorZone"
+            style="@style/settingRow">
+
+            <TextView
+                style="@style/settingText"
+                android:text="Stack color: " />
+
+            <NumberPicker
+                android:id="@+id/stackColorPicker"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="8dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/backgroundColorZone"
+            style="@style/settingRow">
+
+            <TextView
+                style="@style/settingText"
+                android:text="Background color: " />
+
+            <NumberPicker
+                android:id="@+id/backgroundColorPicker"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="8dp"/>
+        </TableRow>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

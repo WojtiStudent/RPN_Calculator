@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonRow">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+
+    <style name="settingRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">3</item>
+    </style>
+
+    <style name="settingText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="numberButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="backgroundColor">@color/purple_500</item>
+        <item name="android:onClick">numberAction</item>
+    </style>
+
+    <style name="operationButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="backgroundColor">@color/purple_500</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:onClick">operationAction</item>
+    </style>
+
+
+    <style name="specialOperationButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="backgroundColor">@color/purple_500</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:onClick">specialOperationAction</item>
+    </style>
+
+    <style name="settingsButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="backgroundColor">@color/purple_500</item>
+        <item name="android:onClick">settingsAction</item>
+    </style>
+
+</resources>
