@@ -3,7 +3,7 @@ A simple project for Ubiquitous subject at the PUT.
 
 ## Table of contents
 * [General Info](#general-info)
-* [How to Launch](#how-to-launc)
+* [How to Launch](#how-to-launch)
 * [Additional Info](#additional-info)
 
 # General Info
