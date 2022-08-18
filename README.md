@@ -1,5 +1,5 @@
 # RPN_Calculator
-A simple project for Ubiquitous subject at the PUT.
+A simple project for Ubiquitous classes at the PUT.
 
 ## Table of contents
 * [General Info](#general-info)
